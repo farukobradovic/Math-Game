@@ -1,0 +1,53 @@
+/* html{
+  background-color: #262925;
+}
+.container {
+  background-color: #262925;
+} */
+
+*{
+  font-family: 'Indie Flower', cursive;
+}
+input , button{
+  width: 100%;
+  padding: 20px;
+  margin: 10px auto 10px auto;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all .6s;
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.prvi{
+  border: 3px solid #27DA1D;
+  color: #27DA1D;
+}
+.drugi{
+  border: 3px solid #284783;
+  color: #284783;
+}
+.treci{
+  border: 3px solid #262925;
+  color: #262925;
+}
+.prvi:hover{
+  background-color: #27DA1D;
+  color:#fff;
+}
+.drugi:hover{
+  background-color: #284783;
+  color:#fff;
+}
+.treci:hover{
+  background-color: #262925;
+  color:#fff;
+}
+h2{
+  text-transform: uppercase;
+}
+/* table{
+  width: 100%;
+} */
