@@ -31,7 +31,7 @@ restart.addEventListener('click',function(){
 
     skor.innerHTML = score;
     odbrojavanje.style.display ='block';
-    timeRemaining = 5;
+    timeRemaining = 60;
     odbrojavanjeVrijednost.innerHTML = timeRemaining;
     restart.textContent = 'Restart';
     restart.classList+='btn btn-success form-control text-center inp';
